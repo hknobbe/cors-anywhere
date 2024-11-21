@@ -25,6 +25,7 @@ cors_proxy.createServer({
   originWhitelist: originWhitelist,
   // requireHeader: ['origin', 'x-requested-with'],
   checkRateLimit: checkRateLimit,
+  setHeaders: {"sec-fetch-mode": "navigate"},
   removeHeaders: [
     'cookie',
     'cookie2',
