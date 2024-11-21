@@ -25,7 +25,6 @@ cors_proxy.createServer({
   originWhitelist: originWhitelist,
   requireHeader: ['origin', 'x-requested-with'],
   checkRateLimit: checkRateLimit,
-  setHeaders: {"accessToken" : "FTqZWYN7XkXe4Zaph9xk7vCy1WkHk6L92HDdnyQCNUUBmQm3HTXWQYX87IpTSztoohA8RWnWPhhAqCzVnX8pPO388LQEGxbtuGVLHqlIicfYiLcADPaikkfIbTWubvcyxiz9C45LFwr1qLmF21NF0KIR3VmJqbdKfeBb6dHGp2NVpgI"},
   removeHeaders: [
     'cookie',
     'cookie2',
